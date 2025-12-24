@@ -5,6 +5,7 @@ import cors from "cors";
 import { globalErrorHandler } from "./utils/error/index.js";
 import  rateLimit  from "express-rate-limit";
 export function bootstrap(app, express) {
+  
   // handle rate limit
   const limiter = rateLimit({
     windowMs : 60 * 100, // 1 min
