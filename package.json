@@ -4,13 +4,9 @@
   "main": "./src/index.js",
   "type": "module",
   "scripts": {
-    "start" : "node .",
+    "start": "node .",
     "start:dev": "nodemon --env-file=config/local.env src/index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
     "bcrypt": "^6.0.0",
     "cloudinary": "^2.8.0",
